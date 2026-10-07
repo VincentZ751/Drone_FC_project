@@ -1,0 +1,24 @@
+
+### KiCad ###
+*-backups/
+*.bak
+*.000
+*.bck
+_autosave-*
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.lck
+*.kicad_prl
+
+# Fabrication outputs — regenerate from source, don't need to be tracked
+plot/
+gerbers/
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+
+### OS junk ###
+.DS_Store
+Thumbs.db
