@@ -513,12 +513,6 @@
 					(unit 1)
 				)
 			)
-			(project "Drone_FC_project"
-				(path "/c363a5f0-d5ff-471e-9dbb-faed2d1c4895"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 		)
 	)
 )
