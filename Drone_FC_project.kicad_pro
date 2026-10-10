@@ -427,11 +427,6 @@
         "filename": "Drone_FC_project.kicad_sch",
         "name": "Root",
         "uuid": "3077c137-9a1a-496f-be15-3587b3336d21"
-      },
-      {
-        "filename": "imu.kicad_sch",
-        "name": "IMU",
-        "uuid": "c363a5f0-d5ff-471e-9dbb-faed2d1c4895"
       }
     ],
     "used_designators": "H1,#PWR1,R1,U1",
@@ -443,8 +438,16 @@
       "Root"
     ],
     [
-      "c363a5f0-d5ff-471e-9dbb-faed2d1c4895",
+      "ee62e42c-1ca0-4e46-9141-f640bba8485d",
       "IMU"
+    ],
+    [
+      "1dcf1939-34f6-466d-a17f-35cca15fd28e",
+      "Motors"
+    ],
+    [
+      "258cc35c-89ab-4ff4-aeea-f81034081630",
+      "Battery and regulator"
     ]
   ],
   "text_variables": {},
