@@ -1094,7 +1094,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
-		(at 128.27 71.12 0)
+		(at 106.68 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1105,7 +1105,7 @@
 		(fields_autoplaced yes)
 		(uuid "d93fe967-4e00-4ba3-9736-333ee57fb474")
 		(property "Reference" "U2"
-			(at 132.9533 111.76 0)
+			(at 111.3633 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1116,7 +1116,7 @@
 			)
 		)
 		(property "Value" "STM32F103C8Tx"
-			(at 132.9533 114.3 0)
+			(at 111.3633 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1127,7 +1127,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 113.03 109.22 0)
+			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1139,7 +1139,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
-			(at 128.27 71.12 0)
+			(at 106.68 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1150,7 +1150,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
-			(at 128.27 71.12 0)
+			(at 106.68 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1314,8 +1314,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 40.64)
-		(size 12.7 5.08)
+		(at 198.12 62.23)
+		(size 22.86 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1330,7 +1330,7 @@
 		)
 		(uuid "1dcf1939-34f6-466d-a17f-35cca15fd28e")
 		(property "Sheetname" "Motors"
-			(at 214.63 39.9284 0)
+			(at 198.12 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1341,7 +1341,7 @@
 			)
 		)
 		(property "Sheetfile" "Motors.kicad_sch"
-			(at 214.63 46.3046 0)
+			(at 198.12 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1349,6 +1349,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MOTOR 1" input
+			(at 198.12 66.04 180)
+			(uuid "66f8eed3-7241-4593-a971-ede42553e6bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR 2" input
+			(at 198.12 71.12 180)
+			(uuid "739c14d8-5a26-4ac3-ae73-fcdfd96597ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR 3" input
+			(at 198.12 76.2 180)
+			(uuid "64cb213d-4bb4-4e0a-97da-44058e8c06a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR 4" input
+			(at 198.12 81.28 180)
+			(uuid "2bce7342-1163-47cb-bb50-3088f93f4640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1360,7 +1400,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 40.64)
+		(at 50.8 93.98)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1376,7 +1416,7 @@
 		)
 		(uuid "258cc35c-89ab-4ff4-aeea-f81034081630")
 		(property "Sheetname" "Battery and regulator"
-			(at 176.53 39.9284 0)
+			(at 50.8 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1387,7 +1427,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery_and_regulator.kicad_sch"
-			(at 176.53 46.3046 0)
+			(at 50.8 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1406,7 +1446,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 69.85)
+		(at 180.34 97.79)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1422,7 +1462,7 @@
 		)
 		(uuid "de504034-d36e-4db9-a65e-8e2d9c74c2b5")
 		(property "Sheetname" "Radio"
-			(at 215.9 69.1384 0)
+			(at 180.34 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1433,7 +1473,7 @@
 			)
 		)
 		(property "Sheetfile" "Radio.kicad_sch"
-			(at 215.9 75.5146 0)
+			(at 180.34 103.4546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1452,7 +1492,7 @@
 		)
 	)
 	(sheet
-		(at 179.07 81.28)
+		(at 143.51 109.22)
 		(size 12.7 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1468,7 +1508,7 @@
 		)
 		(uuid "ee62e42c-1ca0-4e46-9141-f640bba8485d")
 		(property "Sheetname" "IMU"
-			(at 179.07 80.5684 0)
+			(at 143.51 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1479,7 +1519,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 179.07 86.9446 0)
+			(at 143.51 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

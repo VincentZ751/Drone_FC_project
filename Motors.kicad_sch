@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "45c801cd-e9e5-410e-9303-3b4d1c11dc9e")
+	(uuid "91409165-a073-4dcc-9693-ed42859f29e0")
 	(paper "A4")
 	(title_block
 		(title "Motor Schematic")
@@ -1078,7 +1078,7 @@
 		)
 		(uuid "15b0b8f0-0782-47e6-85af-0f6003bd5e49")
 	)
-	(text "Notes:\nWe call this +BATT and not 3.3V because \nthis will be pulled from \nthe battery and the voltage regulator."
+	(text "Notes:\nWe call this +BATT and not 3.3V because \nthis will be pulled from \nthe battery, not the voltage regulator."
 		(exclude_from_sim no)
 		(at 114.046 34.29 0)
 		(effects
@@ -1108,9 +1108,9 @@
 		)
 		(uuid "ce13d700-a0ec-4cfc-bc47-fa03ba4466de")
 	)
-	(text "Notes:\nN channel mosfet, \nwill allow top to flow to bottom \nwhen gate is driven high"
+	(text "N channel mosfet (normally off)\nwill allow top to flow to bottom \nwhen gate is driven high"
 		(exclude_from_sim no)
-		(at 137.16 77.216 0)
+		(at 138.684 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
