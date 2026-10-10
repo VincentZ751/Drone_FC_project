@@ -427,15 +427,24 @@
         "filename": "Drone_FC_project.kicad_sch",
         "name": "Root",
         "uuid": "3077c137-9a1a-496f-be15-3587b3336d21"
+      },
+      {
+        "filename": "imu.kicad_sch",
+        "name": "IMU",
+        "uuid": "c363a5f0-d5ff-471e-9dbb-faed2d1c4895"
       }
     ],
-    "used_designators": "H1-2,#PWR1,R1",
+    "used_designators": "H1,#PWR1,R1,U1",
     "variants": []
   },
   "sheets": [
     [
       "3077c137-9a1a-496f-be15-3587b3336d21",
       "Root"
+    ],
+    [
+      "c363a5f0-d5ff-471e-9dbb-faed2d1c4895",
+      "IMU"
     ]
   ],
   "text_variables": {},
