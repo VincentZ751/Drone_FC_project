@@ -508,11 +508,16 @@
 		)
 		(instances
 			(project "Drone_FC_project"
-				(path "/3077c137-9a1a-496f-be15-3587b3336d21/ee62e42c-1ca0-4e46-9141-f640bba8485d"
+				(path "/c363a5f0-d5ff-471e-9dbb-faed2d1c4895"
 					(reference "U1")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "6")
 		)
 	)
 )
