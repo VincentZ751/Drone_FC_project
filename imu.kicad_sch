@@ -921,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 133.35 92.71)
+			(xy 130.81 92.71) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -959,101 +959,49 @@
 		)
 		(uuid "c8e46107-b6e9-4b28-8a5c-a3cfdfb44b70")
 	)
-	(global_label "INT_ACC"
-		(shape output)
-		(at 163.83 85.09 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "IMU_SDA"
+		(shape passive)
+		(at 130.81 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2ce768a0-4010-49e1-a96e-44ec2783829e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3143 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "399324d3-6258-48d1-a964-10b6814c5320")
 	)
-	(global_label "INT_GYR"
-		(shape output)
-		(at 163.83 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74e66b68-b867-4e09-bc4d-23e75b561857")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3143 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IMU_SCL"
+	(hierarchical_label "IMU_SCL"
 		(shape input)
 		(at 130.81 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "90c1e241-54a8-4235-ab59-2ba082c650c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9629 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "6ce32417-ad0d-4ce4-a4ae-b6f0c659f0ee")
 	)
-	(global_label "IMU_SDA"
-		(shape passive)
-		(at 129.54 92.71 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "INT_GYR"
+		(shape output)
+		(at 163.83 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c4a66bf8-0f5f-4c19-addb-81e7245c6030")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.7437 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "8eedd154-967d-44eb-a330-83c636b1d471")
+	)
+	(hierarchical_label "INT_ACC"
+		(shape output)
+		(at 163.83 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "f3495ff4-6a6a-4746-aafc-01edba2d4a52")
 	)
 	(symbol
 		(lib_id "power:GND")
