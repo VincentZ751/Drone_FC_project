@@ -675,8 +675,8 @@
     "top_level_sheets": [
       {
         "filename": "Drone_FC_project.kicad_sch",
-        "name": "Root",
-        "uuid": "3077c137-9a1a-496f-be15-3587b3336d21"
+        "name": "Drone_FC_project",
+        "uuid": "b2b6b395-2e98-42cf-8acc-86126f9affef"
       }
     ],
     "used_designators": "H1,D5-8,#PWR1,#PWR9-34,J5-7,R1,R9-14,U1-4,C2-15,Y1,Q5,SW1-2,TP1-2",
@@ -684,24 +684,24 @@
   },
   "sheets": [
     [
-      "3077c137-9a1a-496f-be15-3587b3336d21",
-      "Root"
-    ],
-    [
-      "ee62e42c-1ca0-4e46-9141-f640bba8485d",
-      "IMU"
-    ],
-    [
-      "1dcf1939-34f6-466d-a17f-35cca15fd28e",
-      "Motors"
+      "b2b6b395-2e98-42cf-8acc-86126f9affef",
+      "Drone_FC_project"
     ],
     [
       "258cc35c-89ab-4ff4-aeea-f81034081630",
       "Battery and regulator"
     ],
     [
+      "1dcf1939-34f6-466d-a17f-35cca15fd28e",
+      "Motors"
+    ],
+    [
       "de504034-d36e-4db9-a65e-8e2d9c74c2b5",
       "Radio"
+    ],
+    [
+      "ee62e42c-1ca0-4e46-9141-f640bba8485d",
+      "IMU"
     ]
   ],
   "text_variables": {},
