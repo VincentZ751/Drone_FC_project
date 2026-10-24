@@ -1099,7 +1099,7 @@
 		)
 		(uuid "0e7219d6-9ad6-4b5b-9fdf-6170271a8b9a")
 	)
-	(hierarchical_label "MISO"
+	(hierarchical_label "SPI2_MISO"
 		(shape output)
 		(at 124.46 95.25 180)
 		(effects
@@ -1121,7 +1121,7 @@
 		)
 		(uuid "3af8e245-34a8-4290-acbd-da2e7d6430ce")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SPI2_SCK"
 		(shape input)
 		(at 124.46 90.17 180)
 		(effects
@@ -1143,7 +1143,7 @@
 		)
 		(uuid "acbc317d-4aad-47dd-b383-b53e6dcfee2f")
 	)
-	(hierarchical_label "MOSI"
+	(hierarchical_label "SPI2_MOSI"
 		(shape input)
 		(at 124.46 92.71 180)
 		(effects
