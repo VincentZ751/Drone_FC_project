@@ -679,17 +679,13 @@
         "uuid": "b2b6b395-2e98-42cf-8acc-86126f9affef"
       }
     ],
-    "used_designators": "H1,D5-8,#PWR1,#PWR9-43,J5-7,R1,R9-15,U1-4,C2-23,Y1-2,Q5,SW1-2,TP1-2,E1-2,L1-3,AE1-2,FL1-2,FB1",
+    "used_designators": "H1,D5-8,#PWR1,#PWR9-46,J5-7,#FLG1-2,R1,R9-16,U1-4,C2-23,Y1-2,Q5,SW1-2,TP1-2,E1-2,L1-3,AE1-2,FL1-2,FB1",
     "variants": []
   },
   "sheets": [
     [
       "b2b6b395-2e98-42cf-8acc-86126f9affef",
       "Drone_FC_project"
-    ],
-    [
-      "258cc35c-89ab-4ff4-aeea-f81034081630",
-      "Battery and regulator"
     ],
     [
       "1dcf1939-34f6-466d-a17f-35cca15fd28e",

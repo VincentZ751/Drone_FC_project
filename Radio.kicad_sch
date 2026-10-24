@@ -2096,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 199.39 113.03)
+			(xy 194.31 113.03) (xy 200.66 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 115.57) (xy 199.39 115.57)
+			(xy 194.31 115.57) (xy 200.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2596,6 +2596,17 @@
 		)
 		(uuid "16ec57da-eb39-4a2b-a192-6ab22dac02ea")
 	)
+	(hierarchical_label "RF_GDO0"
+		(shape output)
+		(at 200.66 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47086f89-a7e0-4bd4-8488-c34771bd8c8e")
+	)
 	(hierarchical_label "SP1_CSN"
 		(shape input)
 		(at 146.05 118.11 180)
@@ -2606,6 +2617,17 @@
 			(justify right)
 		)
 		(uuid "68726968-089f-42e7-ae8c-d1755cd2f5cb")
+	)
+	(hierarchical_label "RF_GDO2"
+		(shape output)
+		(at 200.66 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7f97a73-a77f-4dd2-bb22-e346ca22c8f4")
 	)
 	(hierarchical_label "SPI1_SCLK"
 		(shape input)
@@ -4019,7 +4041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Chip"
+		(property "Value" "2450AT18B100E"
 			(at 231.14 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)

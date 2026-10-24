@@ -166,24 +166,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -8.89 13.97 0)
+			(property "Reference" "U1"
+				(at 4.6833 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "BMI088"
-				(at 8.89 13.97 0)
+				(at 4.6833 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
@@ -416,7 +418,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "SDO2"
@@ -506,7 +508,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "SDO1"
@@ -800,9 +802,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 109.22 57.15)
+		(end 181.61 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "edb58806-a9ff-4a28-9611-9dc921cbb778")
+	)
 	(text "BIM088 wired in SPI mode\naccording to datasheet"
 		(exclude_from_sim no)
-		(at 172.466 65.278 0)
+		(at 165.1 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -829,12 +843,6 @@
 		(uuid "50577c9a-7e00-438a-8921-90ab15b8e30d")
 	)
 	(junction
-		(at 143.51 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89eb60b5-baac-40c8-94ab-221c19fc0e9a")
-	)
-	(junction
 		(at 143.51 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -845,6 +853,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8e2cbe7-0f30-4b82-b4fc-dcc9343cee4d")
+	)
+	(junction
+		(at 148.59 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d8e708-c14a-4d42-a6b6-1f92a3414011")
 	)
 	(no_connect
 		(at 158.75 100.33)
@@ -880,6 +894,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 109.22) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1933683e-c9a9-44dd-9c50-c4ded9b8965e")
+	)
+	(wire
+		(pts
 			(xy 124.46 85.09) (xy 133.35 85.09)
 		)
 		(stroke
@@ -907,6 +931,16 @@
 			(type default)
 		)
 		(uuid "388f30e5-14c4-4e51-a71a-8ebb39265af2")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f13b12-3f22-4ace-9467-b1e943c227e4")
 	)
 	(wire
 		(pts
@@ -960,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 107.95) (xy 148.59 111.76)
+			(xy 148.59 107.95) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
@@ -990,23 +1024,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 143.51 109.22)
+			(xy 148.59 109.22) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "882652d5-3da1-40a5-aeeb-a83fb9f0a4d4")
-	)
-	(wire
-		(pts
-			(xy 143.51 109.22) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8981bd1d-f4ed-4d75-84c9-159733bd23b7")
+		(uuid "8075a85b-3c84-4103-8df4-0d6cee78f060")
 	)
 	(wire
 		(pts
@@ -1030,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 109.22)
+			(xy 132.08 102.87) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1309,6 +1333,85 @@
 			(project "Drone_FC_project"
 				(path "/b2b6b395-2e98-42cf-8acc-86126f9affef/ee62e42c-1ca0-4e46-9141-f640bba8485d"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b548827-be43-429d-bf50-d7644f1b7cc7")
+		(property "Reference" "#PWR044"
+			(at 132.08 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e33622e6-c9e1-476e-bd26-39c4ad889938")
+		)
+		(instances
+			(project "Drone_FC_project"
+				(path "/b2b6b395-2e98-42cf-8acc-86126f9affef/ee62e42c-1ca0-4e46-9141-f640bba8485d"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
