@@ -2812,7 +2812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 110.7948 0)
 			(hide yes)
 			(show_name no)
@@ -2985,7 +2985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3067,7 +3067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3149,7 +3149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 217.17 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3337,7 +3337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.5548 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.8152 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4052,7 +4052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm"
+		(property "Footprint" "RF_Antenna:XDCR_2450AT18B100E"
 			(at 223.52 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -4212,7 +4212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.2052 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 218.44 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4372,7 +4372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.352 139.7 90)
 			(hide yes)
 			(show_name no)
