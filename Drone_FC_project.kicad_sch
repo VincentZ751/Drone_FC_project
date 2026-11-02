@@ -11596,6 +11596,7 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 58.42 43.18 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
