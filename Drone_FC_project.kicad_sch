@@ -841,7 +841,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -861,15 +861,14 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_MountingPin"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -894,7 +893,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -916,7 +915,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -927,7 +926,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_MountingPin_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -981,26 +980,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
 					)
 				)
 				(pin passive line
@@ -1068,24 +1047,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5894,16 +5855,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 115.57) (xy 31.75 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adcda08a-6408-49d1-9aa2-372bee557d5a")
-	)
-	(wire
-		(pts
 			(xy 111.76 44.45) (xy 138.43 44.45)
 		)
 		(stroke
@@ -8707,85 +8658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "578e1061-7dd0-4c94-8989-ca4615b40808")
-		(property "Reference" "#PWR055"
-			(at 31.75 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4a2f49c-2059-46b7-8db3-d3fff3e1da0d")
-		)
-		(instances
-			(project "Drone_FC_project"
-				(path "/b2b6b395-2e98-42cf-8acc-86126f9affef"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 137.16 152.4 0)
 		(unit 1)
@@ -9346,7 +9218,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 48.26 110.49 0)
+		(at 48.26 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9356,7 +9228,7 @@
 		(dnp no)
 		(uuid "73f7d389-6b82-4747-b481-c655a90fbf71")
 		(property "Reference" "#FLG02"
-			(at 48.26 108.585 0)
+			(at 48.26 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +9239,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 106.68 0)
+			(at 48.26 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9580,9 +9452,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 31.75 105.41 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 31.75 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9591,8 +9462,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "827eb6ed-1773-4350-86c1-2a86c1e9e8e1")
-		(property "Reference" "J5"
+		(uuid "7beb2814-2bdd-49c5-83f8-f61c7e1672e9")
+		(property "Reference" "J7"
 			(at 31.75 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9602,7 +9473,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery_pins"
+		(property "Value" "Battery Pins"
 			(at 31.75 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9612,8 +9483,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 31.75 105.41 0)
+		(property "Footprint" "drone_libary:Battery_pin"
+			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9624,7 +9495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 105.41 0)
+			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,8 +9505,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 105.41 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,26 +9515,23 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "79dd803a-6ca3-45c2-b2ea-bcc8dbb979c2")
-		)
-		(pin "MP"
-			(uuid "6fd20d0a-33bd-4c14-9261-0b735e96c8cd")
-		)
-		(pin "2"
-			(uuid "8bb143ec-bc9f-44d7-8938-4f4b3cb4f367")
 		)
 		(pin "4"
-			(uuid "a976c9d4-bfc7-401e-939a-1e795a7fb3fa")
+			(uuid "20027cf1-e050-4ee7-b48c-f3e4315c5c27")
+		)
+		(pin "1"
+			(uuid "41efcc3a-5614-426b-92eb-ac12e1ed8a5f")
+		)
+		(pin "2"
+			(uuid "11ec0eff-0fac-410f-a4e1-e201bdaafcb2")
 		)
 		(pin "3"
-			(uuid "3e773661-a78d-48fe-9aa0-c2787d0eb1be")
+			(uuid "5cf38d40-05a1-4074-97cf-af18ce28c150")
 		)
 		(instances
 			(project "Drone_FC_project"
 				(path "/b2b6b395-2e98-42cf-8acc-86126f9affef"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
