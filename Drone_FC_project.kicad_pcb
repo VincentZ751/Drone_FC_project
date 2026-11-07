@@ -18603,7 +18603,7 @@
 		(uuid "df8ed1d6-1568-4d13-ae72-91ab56b3ee6c")
 	)
 	(gr_text "Via for 3v3"
-		(at 234.9 146.1 0)
+		(at 236.6 145 0)
 		(layer "F.Cu")
 		(uuid "ff12bbd2-dce7-4bad-acf1-a8c470e2f479")
 		(effects
@@ -18687,6 +18687,18 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "I think I revert back here"
+		(at 251.2 139.7 0)
+		(layer "Dwgs.User")
+		(uuid "bb595625-5642-46b4-9253-623a355c28b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
@@ -22981,12 +22993,36 @@
 		(uuid "29ac8af7-5731-414e-a291-58713a613a8b")
 	)
 	(segment
-		(start 204.44 123.05)
-		(end 201.65 123.05)
+		(start 201.650001 123.099999)
+		(end 204.390001 123.099999)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D-")
-		(uuid "4093a4a1-a013-4bc5-bb17-5d81ccf538a8")
+		(uuid "7dd2bc11-455d-46ff-a6f2-a89f8271272b")
+	)
+	(segment
+		(start 201.6 123.1)
+		(end 201.65 123.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "aa384b8a-96cb-46a9-9ee1-1a65b3708378")
+	)
+	(segment
+		(start 201.65 123.1)
+		(end 201.650001 123.099999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "be752394-3ae2-415a-92d9-e08dc3096278")
+	)
+	(segment
+		(start 204.390001 123.099999)
+		(end 204.44 123.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D-")
+		(uuid "c8625c66-c320-4a9a-bf23-43df8e4ab7a6")
 	)
 	(segment
 		(start 201.65 123.55)
@@ -22997,12 +23033,20 @@
 		(uuid "16f4287e-12db-48b5-b86f-d60234832044")
 	)
 	(segment
-		(start 204.44 123.55)
-		(end 201.65 123.55)
+		(start 201.65 123.55)
+		(end 204.39 123.55)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/USB_D+")
-		(uuid "7882d2d5-68cc-437d-8bc8-7f745325ac43")
+		(uuid "176bbff5-7be0-4f25-8844-4ce6eb2f8bd4")
+	)
+	(segment
+		(start 204.39 123.55)
+		(end 204.44 123.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/USB_D+")
+		(uuid "e3b78c72-8e3d-4653-84ce-7f7aeac57bb5")
 	)
 	(segment
 		(start 205.14 125.75)
